@@ -1,3 +1,4 @@
+import datetime
 import os
 import sys
 import subprocess
@@ -18,6 +19,11 @@ if (
     valid == "n" or valid == "no" or valid == "N" or valid == "NO"
 ):  ## Simple filters for typos
     sys.exit(1)  ## End process with EC 1
+    
+lin = f"date:{datetime.date.today()}, user:{os.path.expanduser('~')}, block:sd{blck}\n"
+    
+with open(f"./Log-{datetime.date.today()}",mode="w") as temp:
+    var = temp.write(lin)
 
 zerofill = subprocess.Popen(
     [
