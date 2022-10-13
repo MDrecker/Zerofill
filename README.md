@@ -9,3 +9,7 @@ Functionality:
 	Code is designed to run a bash-integrated command "dd" to zerofill a block device.
 
 Usage:
+
+	Run with "python /Zerofill.py"
+
+	Prompts are provided in program.
