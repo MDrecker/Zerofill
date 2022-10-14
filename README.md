@@ -1,6 +1,6 @@
-######################################</br>
+<p align="center">######################################</p></br>
 <p align="center">Zerofill</p></br>
-######################################</br>
+<p align="center">######################################</p></br>
 
 <h1><b>Warning! Script can cause data loss if misused.</b></h1>
 
